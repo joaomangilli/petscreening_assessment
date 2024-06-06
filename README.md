@@ -2,7 +2,8 @@
 Thank you for taking the assessment. We will have you work with a sample Pet Adoption Service. We'll outline below the current features, and ask you to implement some new information on our pets. **The intent here is to get as far as you can within 2-4 hours. Please don't feel like you need to spend anymore time on it.**
 
 **Notes**
-- You may choose and add any libraries you want. For tests you can choose MiniTest or Rspec and create tests as you develop the new features. We'll also ask you to use an external API to use one of our pets and get more information.
+- You may choose to add or change any libraries you want, as well as any decision required.
+- For tests you can choose MiniTest or Rspec and create tests as you develop the new features. We'll also ask you to use an external API to use one of our pets and get more information.
 - We will run the tests locally on our machines. Please provide any documentation in the README you think might be needed for us to be able to follow the steps to do that.
 
 ## Steps
