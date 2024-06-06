@@ -18,30 +18,30 @@ Thank you for taking the assessment. We will have you work with a sample Pet Ado
 ## Current State
 The functionalities and tests below already exist on the project:
 
-**1. Features**
+1. **Features**
 **1.1** Create a pet with the fields 'name', 'kind' and 'breed'.
 **1.2** List, view, edit and update the pet.
 
-**2. Tests**
+2. **Tests**
 **2.1** Controller tests
 **2.2** System tests
 
 ## Requirements
-**1. New Features**
-For the folllowing requirements, we do not need any frontend changes, just make sure the new features are correctly working when using the Rails Console.
+We do not need any frontend changes, just make sure the new features are correctly working when using the Rails Console.
 
-**1.1** Add the ability to give the pet a weight.
+1. **New Features**
+**1.1**  Add the ability to give the pet a weight.
 **1.2** Add a model for owners with any basic information you choose.
 **1.3** Make sure an owner can have many pets.
 **1.4** Integrate with the [DogAPI](https://dogapi.dog/) to retrieve the pet breed information, using the [GET breeds endpoint](https://dogapi.dog/docs/api-v2).
-**1.5** Create an endpoint to return the owner's pet breed information. This endpoint we expect to send a request with the owner id, pet id and it will return the breed information for this specific owner and his pet.
+**1.5** Add ability for the Owner to pick a pet and get breed information about that pet.
 
-**2. Tests**
-**2.1** Create tests for the models (./test/models)
-**2.2** Create new tests to cover the new features added to the code.
-**2.3** Feel free to add any extra/missing test or refactor you believe it makes sense.
+2. **Tests**
+**2.1** Create tests for the models.
+**2.2** Create tests to cover the new features added to the code.
+**2.3** Feel free to add any extra/missing test or refactor if you believe it makes sense.
 
-**3. Documentation**
+3. **Documentation**
 **3.1** Update the documentation and add all the required steps in order to successfuly run and test your application.
 **3.2** You may add any extra section in case you feel it is needed.
 **3.3** In case you encounter any assumption or decision to be made, you can choose yourself the best option, and add an extra section explaining about your decisions.
