@@ -17,34 +17,34 @@ Thank you for taking the assessment. We will have you work with a sample Pet Ado
 ## Current State
 The functionalities and tests below already exist on the project:
 
-##### 1. Features
-1.1 Create a pet with the fields 'name', 'kind' and 'breed'.
-1.2 List, view, edit and update the pet.
+##### Features
+1. We can create a pet with the fields 'name', 'kind' and 'breed'.
+2. We can list, view, edit and update the pet.
 
-##### 2. Tests
-2.1 Controller tests
-2.2 System tests
+##### Tests
+1. Controller tests
+2. System tests
 
 ## Requirements
 We do not need any frontend changes, just make sure the new features are correctly working when using the Rails Console.
 
-##### 1. New Features
-1.1 Add the ability to give the pet a weight.
-1.2 Add a model for owners with any basic information you choose.
-1.3 Make sure an owner can have many pets.
-1.4 Integrate with the [DogAPI](https://dogapi.dog/) to retrieve the pet breed information, using the [GET breeds endpoint](https://dogapi.dog/docs/api-v2).
-1.5 Add ability for the Owner to pick a pet and get breed information about that pet.
+##### New Features
+1. Add the ability to give the pet a weight.
+2. Add a model for owners with any basic information you choose.
+3. Make sure an owner can have many pets.
+4. Integrate with the [DogAPI](https://dogapi.dog/) to retrieve the pet breed information, using the [GET breeds endpoint](https://dogapi.dog/docs/api-v2).
+5. Add ability for the Owner to pick a pet and get breed information about that pet.
 
-##### 2. Tests
-2.1 Create tests for the models.
-2.2 Create tests to cover the new features added to the code.
-2.3 Feel free to add any extra/missing test or refactor if you believe it makes sense.
+##### Tests
+1. Create tests for the models.
+2. Create tests to cover the new features added to the code.
+3. Feel free to add any extra/missing test or refactor if you believe it makes sense.
 
-##### 3. Documentation
-3.1 Update the documentation and add all the required steps in order to successfuly run and test your application.
-3.2 You may add any extra section in case you feel it is needed.
-3.3 In case you encounter any assumption or decision to be made, you can choose yourself the best option, and add an extra section explaining about your decisions.
-3.4 In case you are not able to complete the requirements or think there is something to be done afterwards, you may add an extra section with the explanation.
+##### Documentation
+1. Update the documentation and add all the required steps in order to successfuly run and test your application.
+2. You may add any extra section in case you feel it is needed.
+3. In case you encounter any assumption or decision to be made, you can choose yourself the best option, and add an extra section explaining about your decisions.
+4. In case you are not able to complete the requirements or think there is something to be done afterwards, you may add an extra section with the explanation.
 
 ### Evaluation Criteria
 1.  **Code Quality:** Maintainable, well-structured code following Ruby and Rails best practices.
