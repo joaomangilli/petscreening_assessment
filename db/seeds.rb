@@ -2,17 +2,16 @@
 # development, test). The code here should be idempotent so that it can be executed at any point in every environment.
 # The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
 #
-# Clear existing data
-Pet.destroy_all
 
-# Create pets
-Pet.create!(
-  [
-    { name: 'Buddy', kind: 'Dog', breed: 'Golden Retriever' },
-    { name: 'Whiskers', kind: 'Cat', breed: 'Siamese' },
-    { name: 'Tweety', kind: 'Bird', breed: 'Canary' },
-    { name: 'Nemo', kind: 'Fish', breed: 'Clownfish' }
-  ]
-)
+def breed_sync(url)
+  BreedSynchronizer.synchronize(url:) do |next_page|
+    breed_sync(next_page)
+  end
+end
 
-puts "Created #{Pet.count} pets"
+breed_sync("#{ENV['DOGAPI_URL']}/breeds")
+
+Owner.create!(name: 'John Doe')
+
+Pet.create!(name: 'Fido', breed: Breed.first, owner: Owner.first)
+Pet.create!(name: 'Rex', breed: Breed.last, owner: Owner.first)
