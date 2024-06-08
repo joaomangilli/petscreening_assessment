@@ -14,7 +14,7 @@ class PetsTest < ApplicationSystemTestCase
     visit pets_url
     click_on "New pet"
 
-    fill_in "Breed", with: @pet.breed
+    select @pet.breed.name, from: "Breed"
     fill_in "Kind", with: @pet.kind
     fill_in "Name", with: @pet.name
     click_on "Create Pet"
@@ -27,7 +27,7 @@ class PetsTest < ApplicationSystemTestCase
     visit pet_url(@pet)
     click_on "Edit this pet", match: :first
 
-    fill_in "Breed", with: @pet.breed
+    select @pet.breed.name, from: "Breed"
     fill_in "Kind", with: @pet.kind
     fill_in "Name", with: @pet.name
     click_on "Update Pet"

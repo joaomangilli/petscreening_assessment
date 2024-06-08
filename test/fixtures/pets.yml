@@ -3,9 +3,11 @@
 one:
   name: MyString
   kind: MyString
-  breed: MyString
+  breed_id: 1
+  weight: 5
 
 two:
   name: MyString
   kind: MyString
-  breed: MyString
+  breed_id: 1
+  weight: 10

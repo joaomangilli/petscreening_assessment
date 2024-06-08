@@ -14,6 +14,13 @@ Thank you for taking the assessment. We will have you work with a sample Pet Ado
 5. Create a feature branch for you to submit changes. **Do not commit directly on the main branch.**
 6. Create a pull request and send us the link for review.
 
+## How to run locally
+
+1. Create an env var called DOGAPI_URL with the value https://dogapi.dog/api/v2
+2. Run migrations and seeds.
+  - The seed will sync the breeds automatically
+  - In higher environments we will configure a cron job to update the races periodically
+
 ## Current State
 The functionalities and tests below already exist on the project:
 

@@ -22,8 +22,8 @@
   </div>
 
   <div>
-    <%= form.label :breed, style: "display: block" %>
-    <%= form.text_field :breed %>
+    <%= form.label :breed_id, style: "display: block" %>
+    <%= form.select :breed_id, Breed.all.map { |b| [ b.name, b.id ] } %>
   </div>
 
   <div>
